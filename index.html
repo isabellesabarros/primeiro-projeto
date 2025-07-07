@@ -3,9 +3,19 @@
 <html lang="pt-br">
     <head>
 
-        <title>Primeiro projeto da Belle</title>        
+        <!--O title fica lá em cima como nome da aba-->
+        <title>Primeiro projeto da Belle</title>   
+             
         <meta name="description" content="Belle está fazendo seu primeiro projeto em HTML">
         <meta name="author" content="Isabelle Barros">
+
+            <!--Trabalhando com style no CSS após estruturar com HTML-->
+        <style>
+            h1 {
+                color: brown;
+                font-size: 50px;
+            }
+        </style>
 
     </head>
 
@@ -204,8 +214,15 @@
 
                         <label for="comentarios">Comentários:</label><br>
                         <textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="Digite seus comentários aqui"></textarea><br>
+
+                        <button onclick="alert('FEEDBACK ENVIADO')">Envie o feedback</button>
                     </fieldset>
                 </form>
+            </section>
+
+                <!--Testando cores com CSS-->
+            <section>
+                <h2 style="color: darkslateblue; font-size: 35px;">Testando estilização inline</h2>
             </section>
         </main>
 
@@ -213,12 +230,20 @@
             <p>&lt Quiz de programadores &gt. Todos os direitos reservados &copy</p>
             <p>Para conhecer outros quizzes (abrindo por cima desta página), <a href="https://google.com">clique aqui</a></p>
             <p>Para saber sobre mim (abrindo outra aba), <a href="./sobremim.html" target="_blank">clique aqui</a></p>
+
+            <nav>
+                <ul>
+                    <li>
+                        <a href="https://google.com" target="_blank">Termos</a>
+                    </li>
+                    <li>
+                        <a href="https://google.com" target="_blank">Privacidade</a>
+                    </li>
+                    <li>
+                        <a href="https://google.com" target="_blank">Ajuda</a>
+                    </li>
+                </ul>
+            </nav>
         </footer>
-
     </body>
-
-
-
-
-
 </html>
